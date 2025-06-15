@@ -2,14 +2,15 @@
   <div class="container-fluid p-0">
     <!-- <div class="row"> -->
       <Header />
-      <Carousel />
+      <div class="row">
+        <router-view />
+      </div>
     <!-- </div> -->
   </div>
 </template>
 
 <script setup>
 import Header from '@/components/common/header.vue'
-import Carousel from '@/components/common/carousel.vue'
 </script>
 <style scoped>
 body {
